@@ -7,6 +7,8 @@
     "dist"
   ],
   "scripts": {
+    "pub": "sh release.sh",
+    "prepub": "npm run build",
     "build": "rollup -c"
   },
   "type": "module",
